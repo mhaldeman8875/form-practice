@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Animal adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="animal">A species of animal</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="substance">Name a material</label>
+            <input id="substance" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb1">Name a verb</label>
+            <input id="verb1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="place1">Name a destination</label>
+            <input id="place1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb2">Name another verb</label>
+            <input id="verb2" class="form-control" typer="text">
+          </div>
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>A fantastical adventure</h1>
+        <p>
+One day, a <span class="animal"></span> accidentally ate some <span class="substance"></span> and it made it really sick so it decided to <span class="verb1"></span> to a "<span class="place1"></span>" to find someone to <span class="verb2"></span> him. He died.
+</p>
+      </div>
+    </div>
+  </body>
+</html>
